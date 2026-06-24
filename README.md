@@ -5,9 +5,9 @@ An AI-powered PDF analysis assistant built using Streamlit, Groq LLM, and PyPDF.
 ## Users can upload PDF documents, generate summaries, extract key insights, and ask questions about the document using natural language.
 
 ## 🚀 Live Demo
------=
+
 AI PDF Assistant:https://ai-pdf-assistant-kk76ju58bbxhva4qktpvcz.streamlit.app/
------=
+
 
 ## Features
 
@@ -27,11 +27,11 @@ AI PDF Assistant:https://ai-pdf-assistant-kk76ju58bbxhva4qktpvcz.streamlit.app/
 - PyPDF
 
 ## AI PDF Assistant | Streamlit, Groq LLM, PyPDF
---------------------------------=
+
 • Developed an AI-powered document analysis assistant capable of summarizing PDFs and answering context-aware questions.
 • Integrated Groq-hosted LLMs for fast natural language processing.
 • Deployed as a public web application using Streamlit Cloud.
----------------------------------=
+
 
 
 ## Usage
@@ -49,7 +49,7 @@ AI PDF Assistant:https://ai-pdf-assistant-kk76ju58bbxhva4qktpvcz.streamlit.app/
 - Citation and page references
 - Voice-based interaction
 
-🤝 Connect With Me
+## 🤝 Connect With Me
 I’m always open to collaborations, internships, and project opportunities.
 
 📌 GitHub: https://github.com/Raneesh-69
