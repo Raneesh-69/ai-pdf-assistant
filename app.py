@@ -275,3 +275,76 @@ if prompt:
             except Exception as e:
 
                 st.error(f"Error: {e}")
+st.sidebar.markdown("""
+<style>
+
+.profile-card{
+    background:#29446d;
+    border-radius:20px;
+    padding:25px;
+    border:1px solid rgba(255,255,255,.15);
+    margin-top:20px;
+}
+
+.profile-name{
+    color:white;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.profile-role{
+    color:#dbeafe;
+    font-size:16px;
+}
+
+.portfolio{
+    background:#155e75;
+    color:white;
+    padding:14px;
+    border-radius:12px;
+    text-align:center;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+.footer{
+    position:fixed;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    color:#6B7280;
+    font-size:15px;
+    z-index:999;
+}
+
+.footer b{
+    color:#2563EB;
+}
+
+</style>
+
+<div class="profile-card">
+
+<div class="profile-name">
+🧑‍💻 Pitamber Raneesh Joga
+</div>
+
+<div class="profile-role">
+AI & Machine Learning Student
+</div>
+
+</div>
+
+<div class="portfolio">
+⭐ Portfolio Project
+</div>
+
+""", unsafe_allow_html=True)
+
+
+st.markdown("""
+<div class="footer">
+Made with ❤️ by <b>Raneesh</b>
+</div>
+""", unsafe_allow_html=True)
