@@ -99,7 +99,7 @@ with st.sidebar:
             with st.spinner("Analyzing document..."):
 
                 summary_response = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                    model="openai/gpt-oss-120b",
                     messages=[
                         {
                             "role": "system",
@@ -255,7 +255,7 @@ if prompt:
                     )
 
                 response = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                    model="openai/gpt-oss-120b",
                     messages=messages,
                     temperature=0.5,
                     max_tokens=1024
